@@ -60,7 +60,7 @@ label= "BASE"                                                  ;
  bindings = <
  //╷         ╷         ╷         ╷         ╷         ╷         ╷         ╷╷         ╷         ╷         ╷         ╷         ╷         ╷         ╷
               &kp Q     &kp W     &kp F     &kp P     &kp B                          &kp J     &kp L     &kp U     &kp Y     &kp SEMI
-    &kp TAB   &kp A     &kp R     &kp S     &kp T     &kp G                          &kp M     &kp N     &kp E     &kp I     &kp O     &kp SQT
+    &kp TAB   &kp A     &kp S     &kp S     &kp T     &kp G                          &kp M     &kp N     &kp E     &kp I     &kp O     &kp SQT
     &kp LSHFT &kp Z     &kp X     &kp C     &kp D     &kp V     &trans     &trans    &kp K     &kp H     &kp COMMA &kp DOT   &kp FSLH  &kp BSLH
                                   &kp LCTRL &mo LOWER &kp BSPC  &kp LALT   &kp LGUI  &kp SPACE &mo RAISE &kp RET
                         >;
