@@ -77,7 +77,7 @@ label= "BASE"                                                  ;
               &kp Q     &kp W     &kp E     &kp R     &kp T                          &kp Y     &kp U     &kp I     &kp O     &kp P
     &kp TAB   &kp A     &kp S     &kp D     &kp F     &kp G                          &kp H     &kp J     &kp K     &kp L     &kp SEMICOLON     &kp SQT
     &kp LSHFT &kp Z     &kp X     &kp C     &kp V     &kp B     &trans     &trans    &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH  &mo ADJUST
-                                  &mo LOWER &kp LEFT_COMMAND &kp SPACE  &kp Enter   &kp Enter  &mo LOWER &kp SPACE &kp LEFT_ALT
+                                  &mo LOWER &kp LGUI &kp SPACE  &kp Enter   &kp Enter  &mo LOWER &kp SPACE &kp RIGHT_ALT
                         >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
                 };
