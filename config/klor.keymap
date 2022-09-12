@@ -50,8 +50,73 @@
         };
 
         new_combo {
-            bindings = <&trans>;
-            key-positions = <>;
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <1 2>;
+        };
+
+        combo_AT_SIGN {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <2 3>;
+        };
+
+        Combo_HASH {
+            bindings = <&kp HASH>;
+            key-positions = <1 13>;
+        };
+
+        Combo_DOLLAR {
+            bindings = <&kp DOLLAR>;
+            key-positions = <13 3>;
+        };
+
+        Combo_PERCENT {
+            bindings = <&kp PERCENT>;
+            key-positions = <1 3>;
+        };
+
+        Combo_CARET {
+            bindings = <&kp CARET>;
+            key-positions = <6 8>;
+        };
+
+        Combo_AMPERSAND {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <6 18>;
+        };
+
+        Combo_ASTERISK {
+            bindings = <&kp ASTERISK>;
+            key-positions = <18 8>;
+        };
+
+        COMBO_LEFT_PARENTHESIS {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <6 7>;
+        };
+
+        COMBO_RIGHT_PARENTHESIS {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <7 8>;
+        };
+
+        COMBO_VOLUME_UP {
+            bindings = <&kp C_VOLUME_UP>;
+            key-positions = <25 26>;
+        };
+
+        COMBO_VOLUME_DOWN {
+            bindings = <&kp C_VOLUME_DOWN>;
+            key-positions = <23 24>;
+        };
+
+        COMBO_PLAY_PAUSE {
+            bindings = <&kp C_PP>;
+            key-positions = <24 25>;
+        };
+
+        COMBO_MUTE {
+            bindings = <&kp C_MUTE>;
+            key-positions = <23 24 25>;
         };
     };
 
@@ -103,10 +168,10 @@
                                  └─────────┴─────────┴─────────┴─────────┘└─────────┴─────────┴─────────┴─────────┘ */
 
             bindings = <
-               &kp N1      &kp N2        &kp N3         &kp N4    &kp N5                    &kp N6      &kp N7     &kp N8     &kp N9           &kp N0
+                        &kp N1      &kp N2        &kp N3         &kp N4    &kp N5                    &kp N6      &kp N7     &kp N8     &kp N9           &kp N0
  &kp LGUI(LS(4))      &kp LEFT      &kp UP      &kp DOWN      &kp RIGHT  &kp LBKT                  &kp RBKT   &kp KP_N4  &kp KP_N5  &kp KP_N6     &kp KP_MINUS  &kp KP_PLUS
- &trans  &kp LA(LEFT)  &kp LA(UP)  &kp LA(DOWN)  &kp LA(RIGHT)  &kp LPAR  &trans  &trans  &kp RPAR   &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY       &trans
-                                         &trans         &trans    &trans  &trans  &trans    &trans  &kp DELETE  &kp KP_N0
+          &trans  &kp LA(LEFT)  &kp LA(UP)  &kp LA(DOWN)  &kp LA(RIGHT)  &kp LPAR  &trans  &trans  &kp RPAR   &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY       &trans
+                                                  &trans         &trans    &trans  &trans  &trans    &trans  &kp DELETE  &kp KP_N0
             >;
         };
 
