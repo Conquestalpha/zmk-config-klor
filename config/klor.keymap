@@ -149,9 +149,14 @@
             key-positions = <30 31>;
         };
 
-        combo_MO1 {
+        combo_Option {
             bindings = <&kp LEFT_ALT>;
             key-positions = <22 36>;
+        };
+
+        combo_MO2 {
+            bindings = <&mo 2>;
+            key-positions = <10 39>;
         };
     };
 
