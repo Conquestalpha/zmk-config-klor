@@ -156,7 +156,7 @@
 
         combo_MO2 {
             bindings = <&mo 2>;
-            key-positions = <10 39>;
+            key-positions = <10 37>;
         };
     };
 
@@ -237,10 +237,10 @@
                                  └─────────┴─────────┴─────────┴─────────┘└─────────┴─────────┴─────────┴─────────┘ */
 
             bindings = <
-         &trans  &trans  &trans  &trans  &trans                    &trans    &trans     &trans     &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                  &kp LEFT  &kp DOWN     &kp UP  &kp RIGHT  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp HOME   &kp END  &kp PG_UP  &kp PG_DN  &trans  &trans
-                         &trans  &trans  &trans  &trans  &trans    &trans    &trans     &trans
+         &kp LEFT_ARROW    &kp UP_ARROW           &trans  &trans  &trans                    &trans    &trans     &trans     &trans  &trans
+ &trans          &trans  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans                  &kp LEFT  &kp DOWN     &kp UP  &kp RIGHT  &trans  &trans
+ &trans          &trans          &trans           &trans  &trans  &trans  &trans  &trans  &kp HOME   &kp END  &kp PG_UP  &kp PG_DN  &trans  &trans
+                                                  &trans  &trans  &trans  &trans  &trans    &trans    &trans     &trans
             >;
         };
 
