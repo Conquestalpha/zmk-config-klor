@@ -178,6 +178,16 @@
             bindings = <&kp TAB>;
             key-positions = <10 22>;
         };
+
+        combo_Media_Previous {
+            bindings = <&kp K_PREVIOUS>;
+            key-positions = <11 24>;
+        };
+
+        combo_Media_Next {
+            bindings = <&kp K_NEXT>;
+            key-positions = <25 14>;
+        };
     };
 
     keymap {
