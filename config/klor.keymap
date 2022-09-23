@@ -181,7 +181,7 @@
 
         new_combo {
             bindings = <&mo 4>;
-            key-positions = <22 33 34 21>;
+            key-positions = <>;
         };
     };
 
@@ -291,7 +291,7 @@
             bindings = <
          &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans  &kp MINUS     &kp EQUAL
  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans     &kp UP     &kp RIGHT  &kp BACKSLASH
- &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT   &kp DOWN  &kp QUESTION         &trans
+ &trans  &trans  &trans  &trans  &trans   &mo 4  &trans  &trans  &trans  &trans  &kp LEFT   &kp DOWN  &kp QUESTION         &trans
                          &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans
             >;
         };
