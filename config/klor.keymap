@@ -149,11 +149,6 @@
             key-positions = <30 31>;
         };
 
-        combo_Option {
-            bindings = <&kp LEFT_ALT>;
-            key-positions = <>;
-        };
-
         combo_MO2 {
             bindings = <&mo 2>;
             key-positions = <10 37>;
@@ -177,11 +172,6 @@
         combo_Blackslash {
             bindings = <&kp BACKSLASH>;
             key-positions = <33 32>;
-        };
-
-        new_combo {
-            bindings = <&mo 4>;
-            key-positions = <0>;
         };
     };
 
