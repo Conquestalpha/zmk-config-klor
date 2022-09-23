@@ -151,7 +151,7 @@
 
         combo_Option {
             bindings = <&kp LEFT_ALT>;
-            key-positions = <0>;
+            key-positions = <>;
         };
 
         combo_MO2 {
@@ -181,7 +181,7 @@
 
         new_combo {
             bindings = <&mo 4>;
-            key-positions = <>;
+            key-positions = <0>;
         };
     };
 
