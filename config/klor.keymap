@@ -176,7 +176,7 @@
 
         new_combo {
             bindings = <&kp LEFT_ALT>;
-            key-positions = <22 10>;
+            key-positions = <22 38>;
         };
 
         combo_Media_Previous {
