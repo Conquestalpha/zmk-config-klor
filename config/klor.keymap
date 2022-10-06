@@ -31,18 +31,6 @@
             bindings = <&kp ESC>;
         };
 
-        combo_del {
-            timeout-ms = <50>;
-            key-positions = <8 9>;
-            bindings = <&kp BSPC>;
-        };
-
-        combo_BSPC {
-            timeout-ms = <50>;
-            key-positions = <9 21>;
-            bindings = <&kp DEL>;
-        };
-
         combo_PP {
             timeout-ms = <50>;
             key-positions = <4 5>;
@@ -192,6 +180,36 @@
         combo_Left_Control {
             bindings = <&kp LEFT_CONTROL>;
             key-positions = <22 36>;
+        };
+
+        combo_SINGLE_QUOTE {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <18 8 17>;
+        };
+
+        combo_APOSTROPHE {
+            bindings = <&kp APOSTROPHE>;
+            key-positions = <18 19 17>;
+        };
+
+        combo_QUESTION {
+            bindings = <&kp QUESTION>;
+            key-positions = <9 8 17>;
+        };
+
+        combo_SLASH {
+            bindings = <&kp SLASH>;
+            key-positions = <9 19 17>;
+        };
+
+        combo_COLON {
+            bindings = <&kp COLON>;
+            key-positions = <9 8 17>;
+        };
+
+        combo_SEMICOLON {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <9 19 17>;
         };
     };
 
