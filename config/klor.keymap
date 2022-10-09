@@ -199,7 +199,7 @@
 
         combo_SLASH {
             bindings = <&kp SLASH>;
-            key-positions = <17 16 18>;
+            key-positions = <17 8 9>;
         };
 
         combo_COLON {
@@ -209,7 +209,7 @@
 
         combo_SEMICOLON {
             bindings = <&kp SEMICOLON>;
-            key-positions = <16 6 18>;
+            key-positions = <16 17 18>;
         };
     };
 
