@@ -204,12 +204,22 @@
 
         combo_COLON {
             bindings = <&kp COLON>;
-            key-positions = <16 6 7>;
+            key-positions = <30 17 18>;
         };
 
         combo_SEMICOLON {
             bindings = <&kp SEMICOLON>;
+            key-positions = <30 31 32>;
+        };
+
+        combo_DOT {
+            bindings = <&kp DOT>;
             key-positions = <16 17 18>;
+        };
+
+        combo_COMMA {
+            bindings = <&kp COMMA>;
+            key-positions = <16 6 7>;
         };
     };
 
