@@ -221,6 +221,11 @@
             bindings = <&kp COMMA>;
             key-positions = <16 6 7>;
         };
+
+        combo_SLASH2 {
+            bindings = <&kp SLASH>;
+            key-positions = <30 17 18>;
+        };
     };
 
     keymap {
