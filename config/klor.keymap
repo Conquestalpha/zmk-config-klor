@@ -227,7 +227,7 @@
             key-positions = <30 17 18>;
         };
 
-        combo_Enter {
+        combo_Enter_Left {
             bindings = <&kp ENTER>;
             key-positions = <2 1 3>;
         };
@@ -235,6 +235,11 @@
         combo_Tab {
             bindings = <&kp TAB>;
             key-positions = <1 3>;
+        };
+
+        combo_Enter_Right {
+            bindings = <&kp ENTER>;
+            key-positions = <6 7 8>;
         };
     };
 
