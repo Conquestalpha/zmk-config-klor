@@ -44,22 +44,22 @@
 
         combo_AT_SIGN {
             bindings = <&kp AT_SIGN>;
-            key-positions = <1 11>;
+            key-positions = <0 2>;
         };
 
         combo_HASH {
             bindings = <&kp HASH>;
-            key-positions = <11 2>;
+            key-positions = <0 2>;
         };
 
         combo_DOLLAR {
             bindings = <&kp DOLLAR>;
-            key-positions = <3 11>;
+            key-positions = <3 0>;
         };
 
         combo_PERCENT {
             bindings = <&kp PERCENT>;
-            key-positions = <11 4>;
+            key-positions = <4 0>;
         };
 
         combo_CARET {
