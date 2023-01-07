@@ -54,12 +54,12 @@
 
         combo_DOLLAR {
             bindings = <&kp DOLLAR>;
-            key-positions = <3 0>;
+            key-positions = <1 4>;
         };
 
         combo_PERCENT {
             bindings = <&kp PERCENT>;
-            key-positions = <4 0>;
+            key-positions = <1 3>;
         };
 
         combo_CARET {
@@ -230,11 +230,6 @@
         combo_Enter_Left {
             bindings = <&kp ENTER>;
             key-positions = <2 1 3>;
-        };
-
-        combo_Tab {
-            bindings = <&kp TAB>;
-            key-positions = <1 3>;
         };
 
         combo_Enter_Right {
