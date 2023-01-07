@@ -44,7 +44,7 @@
 
         combo_AT_SIGN {
             bindings = <&kp AT_SIGN>;
-            key-positions = <0 2>;
+            key-positions = <12 13 14>;
         };
 
         combo_HASH {
